@@ -1,0 +1,74 @@
+body {
+  background-color:#FCFCFC;
+  font-family: Helvetica;
+  font-size: 25px;
+  line-height: 50px;
+}
+
+h1 {
+  color:#096386;
+  font-family: 'Gugi', cursive;
+}
+
+h2 {
+  color: #49BEB7;
+  font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+  color: #085F63;
+}
+
+p {
+  color: black;
+  font-family: 'Gugi', cursive;
+  font-weight: bold;
+}
+
+a {
+  color: blue
+}
+
+.card {
+background-color: #6DFFE1;
+border: 5px solid #F7567C;
+margin: 39px;
+padding-bottom: 10px;
+box-shadow: 6px 9px 9px rgba(0,0,0,0.3);
+text-align: center;
+}
+
+.card li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.container {
+  width: 600px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+#img-cirle {
+  text-align: center;
+  border-radius: 50%;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
